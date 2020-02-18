@@ -1,9 +1,9 @@
 variable "public_key" {
-    default = "./keys/cert.pub"
+    default = "./keys/key.pub"
 }
 
 variable "aws_region" {
-    default = "us-east-2"
+    default = "eu-central-1"
 }
 
 variable "author_name" {
